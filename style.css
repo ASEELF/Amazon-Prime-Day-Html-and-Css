@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Open+Sans:wght@300;400;500;600;700&family=Paytone+One&family=Poppins:wght@200;300;400&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+
+    
+    background-color: #f3f3f3;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/*Here will start the first nav bar */
+.nav{
+    display:flex;
+    width:100%;
+    height:60px;
+    background-color: black;
+    color:white;
+
+
+}
+.logo{
+    margin-left:127px;
+}
+.logo img{
+    width:120px;
+    cursor:pointer;
+}
+.deliver img{
+    width:25px;
+
+}
+
+.deliver .span{
+    display:flex;
+}
+
+.deliver .span img{
+    height:20px;
+    width:20px;
+    margin-top:5px;
+}
+.deliver{
+    margin-left:45px;
+    margin-top:7px;
+    cursor:pointer;
+}
+.deliver .d1{
+    margin-left:22px;
+    font-size: 12px;
+    margin-top:5px;
+    color:#ccc;
+}
+
+.deliver .d2{
+    font-size: 16px;
+    margin-top:7px;
+    margin-left:5px;
+    
+
+}
+.d2:hover{
+    color:#ddd;
+}
+.cont{
+    display:flex;
+    margin-left:50px;
+    margin-top:10px;
+    margin-right:50px;
+
+}
+.menu option{
+    text-align: center;
+}
+.menu2{
+    outline:none;
+    border:none;
+    padding-top:5px;
+    padding-left:5px;
+    width:50px;
+    height:40px;
+    border-radius: 5px 0px 0px 5px; 
+    background-color: #f3f3f3;
+}
+
+.searcham{
+    height:40px;
+    width:510px;
+    outline:none;
+    font-size: 16px;
+    
+}
+.searcham2{
+    outline:none;
+    border:none;
+    height:40px;
+    width:510px;
+    padding-left:8px;
+    font-size: 16px;
+    padding-top:5px;
+    
+}
+.loupe{
+    outline:none;
+    width:50px;
+    height:40px;
+    border-radius: 0px 5px 5px 0px; 
+    background-color: #FEBD68;
+}
+.loupe  img{
+    cursor: pointer;
+    width:17px;
+    height:17px;
+    margin-top:5px;
+}
+.loupe button{
+    outline:none;
+    border:none;
+}
+.signin{
+    margin-top:15px;
+    margin-right:50px;
+}
+.signin:hover , .returns:hover{
+    color:#ddd;
+    cursor: pointer;
+
+}
+.sign1{
+    font-size:13px;
+    font-weight: 500;
+}
+.return1{
+    font-size:13px;
+    font-weight: 100;
+    margin-bottom:3px;
+}
+
+.sign2 {
+    font-size:15px;
+    font-weight: 500;
+}
+.return2{
+    font-size:15px;
+    font-weight: 500;
+}
+
+.returns{
+    margin-top:15px; 
+}
+
+.cart{
+    display:flex;
+    margin-left:47px;
+    margin-top:10px;
+}
+.cart p:hover , .cart img:hover{
+    color:#ddd;
+    cursor: pointer;
+
+}
+.cart img{
+    height:35px;
+}
+.cart p{
+    margin-top: 19px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 3px;
+}
+/* Now will start the second nav */
+
+
+.nav2{
+    padding-top:13px;
+    width:100%;
+    height:45px;
+    background-color: #222f3d;
+    color:white;
+
+
+}
+.ul ul{
+    display:flex;
+    list-style-type: none ;
+    
+}
+.ul ul li a:hover{
+    cursor:pointer;
+    color:#ddd;
+}
+
+.ul ul li img{
+    height:18px;
+    cursor:pointer;
+    margin-left:120px;
+    margin-right: 15px;
+    margin-top:2px;
+}
+
+.ul ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right:15px;
+    
+}
+
+
+.shell{
+    margin-right:640px;
+}
+
+/*Here will start hero section*/
+
+.herosection img{
+    width:100%;
+}
+
+.cards{
+    display:flex;
+    margin-left:120px;
+    margin-right: 120px;
+    margin-top:48px;
+    margin-bottom: 48px;
+}
+
+.card{
+    padding-left:30px;
+    padding-top:30px;
+    width:400px;
+    height:410px;
+    background-color: #fff;
+    margin-right: 40px;
+    
+
+}
+.card h3{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.card img{
+    width:235px;
+    height:280px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+
+.card a{
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.card a:hover{
+    color:#c7511f;
+    
+    text-decoration: underline;
+}
+
+
+/*Noe the footers styling*/
+.footer1{
+    width:100%;
+    height:65px;
+    background-color: #37475A;
+    padding-top:20px;
+    padding-left:722px;
+}
+.footer1 a{
+   color:#fff;
+   text-decoration: none;
+   font-weight:500;
+   font-size:14.5px;
+
+   
+}
+.footer1 a:hover{
+    
+    color:#ddd;
+
+}
+.footer{
+    background-color: #232F3E;
+    width:100%;
+    height:300px;
+}
+.footer2{
+    display:flex;
+}
+
+.footer2 h5{
+    color:#fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom:11px;
+}
+.section ul{
+    list-style-type: none;
+}
+
+.section ul li a{
+    color:#ddd;
+    text-decoration: none;
+    font-size: 14px;
+    
+}
+
+.section ul li a:hover{
+    
+    text-decoration: underline;
+    
+}
+.section ul li{
+    margin-bottom: 0px;
+}
+.section{
+    margin-top:20px;
+    margin-left:182px;
+    
+}
